@@ -2,16 +2,28 @@
 <html>
     <head>
         <title>Exemplos de CSS</title>
+        <style type = "text/css">
+            h1 {
+                font-size: 30px;
+                color: salmon;}
+            h2 {
+                font-size: 25px;
+                color: darksalmon;}
+
+            .grande {font-size: 35px;}
+
+            .maiuscula {text-transform: uppercase;}
+        </style>
     </head>
     <body>
-        <h1 style="font-size: 30px; color: #ff555f;">Cabeçalho 1 = 1</h1>
-        <h1 style="font-size: 30px; color: #ff555f;">Cabeçalho 1 = 2</h1>
-        <h1 style="font-size: 30px; color: #ff555f;">Cabeçalho 1 = 3</h1>
-        <h1 style="font-size: 30px; color: #ff555f;">Cabeçalho 1 = 4</h1>
-        <h2 style="font-size: 25px; color: #f55fff;">Cabeçalho 2 = 1</h1>
-        <h2 style="font-size: 25px; color: #f55fff;">Cabeçalho 2 = 2</h1>
-        <h2 style="font-size: 25px; color: #f55fff;">Cabeçalho 2 = 3</h1>
-        <h2 style="font-size: 25px; color: #f55fff;">Cabeçalho 2 = 4</h1>
+        <h1 class="maiuscula">Cabeçalho 1 = 1</h1>
+        <h1 class="grande">Cabeçalho 1 = 2</h1>
+        <h1>Cabeçalho 1 = 3</h1>
+        <h1 class="grande maiuscula">Cabeçalho 1 = 4</h1>
+        <h2>Cabeçalho 2 = 1</h1>
+        <h2 class="grande">Cabeçalho 2 = 2</h1>
+        <h2>Cabeçalho 2 = 3</h1>
+        <h2>Cabeçalho 2 = 4</h1>
     </body>
 
 </html>
