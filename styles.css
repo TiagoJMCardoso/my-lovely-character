@@ -1,0 +1,15 @@
+h1 {
+    font-size: 30px;
+    color: salmon;}
+h2 {
+    font-size: 25px;
+    color: darksalmon;
+    text-align: center;}
+
+.grande {font-size: 35px;}
+
+.maiuscula {text-transform: uppercase;}
+
+.grande.maiuscula {text-shadow: 6px 6px 8px #333333;}
+
+span {color: tomato;}
