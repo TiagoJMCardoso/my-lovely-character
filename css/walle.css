@@ -67,3 +67,8 @@ footer {
 footer p {
     margin: 0;
 }
+
+.caption {
+    color: #999999;
+    margin: 0;
+}
